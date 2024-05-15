@@ -70,15 +70,14 @@ public class JobTest {
     // Test toString method handles empty fields with “Data not available”
     @Test
     public void testToStringHandlesEmptyField() {
-//        Job job = new Job();
-//        String testToString = job.toString();
-//
-//        assertTrue(testToString.contains("Name: Data not available"));
-//        assertTrue(testToString.contains("Employer: Data not available"));
-//        assertTrue(testToString.contains("Location: Data not available"));
-//        assertTrue(testToString.contains("Position Type: Data not available"));
-//        assertTrue(testToString.contains("Core Competency: Data not available"));
+        Job job = new Job();
+        String testToString = job.toString();
 
+        assertTrue(testToString.contains("Name: Data not available"));
+        assertTrue(testToString.contains("Employer: Data not available"));
+        assertTrue(testToString.contains("Location: Data not available"));
+        assertTrue(testToString.contains("Position Type: Data not available"));
+        assertTrue(testToString.contains("Core Competency: Data not available"));
     }
 
 }
